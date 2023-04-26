@@ -1,0 +1,1 @@
+nmap -sN -p 1-65535 --reason --script=banner --traceroute -oA scan_results target_ip_address
